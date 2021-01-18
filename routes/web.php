@@ -13,7 +13,6 @@
 
 
 Route::get('/','HomeController@index')->name('home');
-Route::get('/','HomeController@index')->name('home2');
 Route::get('/services','ServiceController@index')->name('service.index');
 Route::get('/services/{slug}','ServiceController@show')->name('service.show');
 //Route::get('/service/{slug}','ServiceController@show')->name('service.show');
